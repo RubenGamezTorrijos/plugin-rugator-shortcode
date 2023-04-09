@@ -4,7 +4,7 @@ Plugin URI: https://www.torrijos.me
 Description: Función personalizada de estadísticas de WordPress con ShortCode.
 Author: Rubén Gámez Torrijos
 Author URI: https://www.torrijos.me
-Version: 1.0.0
+Version: 1.0.1
 Text Domain: plugin-rugator-shortcode
 Domain Path: /languages/
 */
