@@ -1,1 +1,72 @@
+/* Estilos para el plugin Rugator Statistics */
 
+/* Contenedor principal */
+.plugin-rugator-statistics {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Títulos */
+.plugin-rugator-statistics h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.plugin-rugator-statistics h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Botones */
+.plugin-rugator-statistics button {
+  background-color: #007cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.plugin-rugator-statistics button:hover {
+  background-color: #005c8a;
+}
+
+/* Tabla */
+.plugin-rugator-statistics table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.plugin-rugator-statistics th, .plugin-rugator-statistics td {
+  text-align: left;
+  padding: 8px;
+}
+
+.plugin-rugator-statistics th {
+  background-color: #007cba;
+  color: #fff;
+}
+
+.plugin-rugator-statistics tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.plugin-rugator-statistics tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para el shortcode */
+.plugin-rugator-statistics-shortcode {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
