@@ -132,7 +132,7 @@ function plugin_rugator_statistics_mostrar_opciones() {
                         <?php $opciones = get_option( 'plugin_rugator_statistics_opciones' ); ?>
                         <label>
                             <input type="checkbox" name="plugin_rugator_statistics_opciones[count_all]" value="1" <?php checked( isset( $opciones['count_all'] ) ); ?>>
-                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>
+                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>   [count_all]
                         </label>
                     </td>
                 </tr>
@@ -141,7 +141,7 @@ function plugin_rugator_statistics_mostrar_opciones() {
                     <td>
                         <label>
                             <input type="checkbox" name="plugin_rugator_statistics_opciones[count_administrators]" value="1" <?php checked( isset( $opciones['count_administrators'] ) ); ?>>
-                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>
+                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>   [count_administrators]
                         </label>
                     </td>
                 </tr>
@@ -150,7 +150,7 @@ function plugin_rugator_statistics_mostrar_opciones() {
                     <td>
                         <label>
                             <input type="checkbox" name="plugin_rugator_statistics_opciones[count_subscribers]" value="1" <?php checked( isset( $opciones['count_subscribers'] ) ); ?>>
-                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>
+                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>   [count_subscribers]
                         </label>
                     </td>
                 </tr>
@@ -159,7 +159,7 @@ function plugin_rugator_statistics_mostrar_opciones() {
                     <td>
                         <label>
                             <input type="checkbox" name="plugin_rugator_statistics_opciones[count_editors]" value="1" <?php checked( isset( $opciones['count_editors'] ) ); ?>>
-                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>
+                            <?php _e( 'Activar', 'plugin-rugator-statistics' ); ?>   [count_editors]
                         </label>
                     </td>
                 </tr>
