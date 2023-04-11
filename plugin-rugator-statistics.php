@@ -3,7 +3,7 @@
  * Plugin Name: Plugin Rugator Statistics ShortCode
  * Plugin URI: https://rugator.com/
  * Description: Plugin para contar estadísticas de Plugins y Temas de WordPress.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Rubén Gámez Torrijos
  * Author URI: https://torrijos.me/
  * Text Domain: plugin-rugator-statistics
